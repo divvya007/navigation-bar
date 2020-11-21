@@ -1,0 +1,94 @@
+.container{
+    border: 2px ;
+    padding: 20px;
+    background-color: rgb(73, 72, 72);
+}
+/* blue color #2c9aee */
+
+
+.format{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.navigationItem{
+    border: 2px ;
+    margin: 5px;
+    padding: 7px;
+    color:white;
+    
+}
+
+a:hover{
+    background-color:#637272;
+    
+}
+a{  
+    text-decoration: none;
+    color:white;
+    display:block;
+    padding: 10px;
+    /* cursor: pointer; */
+}
+
+.innerContainer{
+    height: 5px;
+    width: 35px;
+    margin: 5px 0;
+    background-color: #17a2b8;
+    overflow: visible;
+}
+
+.right {
+    float: right;
+    padding-bottom: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.bar1 .bar2 .bar3{
+    transition: 0.4s;
+}
+
+/* Fade out the second bar */
+.change .bar2{
+    opacity: 0;
+}
+
+.change .bar1{
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar3{
+    transform: rotate(45deg) translate(-8px, -6px);
+}
+
+
+.dropContent{
+    display:none;
+    position: absolute;
+    color:white;
+    min-width: 135px;
+    overflow: auto;
+}
+
+.dropDown{
+    position: relative;
+    display: inline-block;
+
+}
+
+
+.dropDown:hover .dropContent{
+    display:block;
+    color:white;
+    
+}
+
+ .list ul{
+    background-color:rgb(73, 72, 72);
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
